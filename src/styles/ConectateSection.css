@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.img-background {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -1;
+}
+
+.conectate-container {
+	background: url('../WEB/OBJETIVO-FONDO-COMPLETO.png') center center/cover no-repeat;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	object-fit: contain;
+	color: #fff;
+}
+
+.conectate-container>h1 {
+	font-size: 100px;
+}
+
+.conectate-container>p {
+	margin-top: 8px;
+	font-size: 18px;
+}
+
+.text-conectate {
+	width: 100%;
+	max-width: 1000px;
+	display: flex;
+	justify-content: center;
+}
+
+.text-conectate-wrapper {
+	display: flex;
+}
+
+.text-conectate-items {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 16px;
+	text-align: left;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.text {
+	margin: 16px;
+	box-sizing: border-box;
+}
+
+.text-conectate-items>h1 {
+	text-align: left;
+	text-decoration: underline;
+	font-size: 70px;
+	color: #9a65C9;
+}
+
+.objetivos {
+	display: flex;
+	margin-top: 15px;
+}
+
+.objetivos > img {
+	height: 60px;
+	margin-right: 15px;
+}
+
+.objetivos>li {
+	list-style: none;
+	color: #9a65C9;
+	text-align: left;
+	font-size: 22px;
+	width: 55%;
+	font-weight: 700;
+}
+
+.ws {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+}
+
+.ws>p {
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 960px) {
+
+	.conectate-container>h1 {
+		font-size: 70px;
+		margin-top: -150px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+	/* .conectate-container {
+	background: url('../MOVIL/INTRO-FONDO.jpg') center center/cover no-repeat;
+} */
+
+	.conectate-container {
+		flex-direction: column;
+	}
+
+	.conectate-container>h1 {
+		font-size: 50px;
+		margin-top: 0px;
+	}
+
+	.conectate-container>p {
+		font-size: 15px;
+	}
+
+	.btn-mobile {
+		display: block;
+		text-decoration: none;
+	}
+
+
+}

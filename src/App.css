@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	/* font-family: 'PT Sans', sans-serif; */
+	font-family: 'Open Sans', sans-serif;
+}
+
+.home,
+.experimenta,
+.conectate,
+.programate,
+.conocenos,
+.suscribete {
+	display: flex;
+	height: 90vh;
+	align-items: center;
+	justify-content: center;
+	font-size: 3rem;
+}
+
+.experimenta {
+	background-image: url('./WEB/INTRO-FONDO.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	font-size: 100px;
+}
+
+.conectate {
+	background-image: url('./WEB/OBJETIVO-FONDO-COMPLETO.png');
+	background-position: center;
+	background-size: fill;
+	background-repeat: no-repeat;
+	color: #fff;
+	font-size: 100px;
+}
+
+.programate {
+	background: #9A65C9;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	font-size: 100px;
+}
+
+.conocenos {
+	background: #EEEEEE;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	font-size: 100px;
+}
+
+.suscribete {
+	background: #EEEEEE;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	font-size: 100px;
+}

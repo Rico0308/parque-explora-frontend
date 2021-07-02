@@ -1,0 +1,31 @@
+.slider {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.right-arrow {
+	font-size: 3rem;
+	color: #4C3CA7;
+	cursor: pointer;
+	user-select: none;
+}
+
+.left-arrow {
+	font-size: 3rem;
+	color: #4C3CA7;
+	cursor: pointer;
+	user-select: none;
+}
+
+.slide {
+	opacity: 0;
+	transition-duration: 1s ease;
+}
+
+.slide.active {
+	opacity: 1;
+	transition-duration: 1s;
+	transform: scale(0.9);
+}
