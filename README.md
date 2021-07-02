@@ -19,6 +19,6 @@
 ###
 :five:Estando ubicados en la ruta del Proyecto desde la consola, procedemos a ejecutar el Proyecto en local tipeando: yarn start
 ###
-:six:Como el Proyecto debe consumir los datos que se realizaron en el proyecto parque-explora-backend (puede ser encontrado en) se debe haber iniciado anteriormente el servidor en Local de la Api que se contiene en parque-explora-backend, para ello debemos abrir el proyecto con nuestro IDE o consola, ubicarnos en el directorio api y allí ejecutar: yarn dev
+:six:Como el Proyecto debe consumir los datos que se realizaron en el proyecto parque-explora-backend (puede ser encontrado en https://github.com/Rico0308/parque-explora-backend) se debe haber iniciado anteriormente el servidor en Local de la Api que se contiene en parque-explora-backend, para ello debemos abrir el proyecto con nuestro IDE o consola, ubicarnos en el directorio api y allí ejecutar: yarn dev
 ###
 Si no se realiza el proceso anterior, el componente de Inicio no cargará las Card de las Experiencias registradas en el proyecto parque-explora-backend
