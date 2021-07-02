@@ -150,7 +150,6 @@ function SuscribeteSection() {
 			<div className='susc-links'>
 				<div className='susc-link-wrapper'>
 					<div className='susc'>
-						{/* <Grid container align="center"> */}
 						<form className={classes.root} onSubmit={formik.handleSubmit} autoComplete="off">
 							<Grid container align="center">
 								<Grid item xs>
@@ -247,7 +246,6 @@ function SuscribeteSection() {
 								</Box>
 							</Grid>
 						</form>
-						{/* </Grid> */}
 					</div>
 				</div>
 			</div>

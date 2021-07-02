@@ -10,7 +10,7 @@ import SuscribeteSection from '../SuscribeteSection';
 export default function Inicio() {
 
 	return (
-		<>	
+		<>
 			<Card />
 			<ExperimentaSection />
 			<ConectateSection />

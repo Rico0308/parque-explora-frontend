@@ -106,10 +106,6 @@
 
 @media screen and (max-width: 768px) {
 
-	/* .conectate-container {
-	background: url('../MOVIL/INTRO-FONDO.jpg') center center/cover no-repeat;
-} */
-
 	.conectate-container {
 		flex-direction: column;
 	}
