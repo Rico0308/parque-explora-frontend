@@ -1,5 +1,5 @@
 # El proyecto :blue_book:
-:page_facing_up: El presente proyecto es presentado para la prueba Técnica de Parque Explora, este es el segun punto denominado Frontend. Dicho proyecto está enfocado a solamente Web, no cuenta con diseño responsive, entendiéndose, que no se cumple con el requisito de que fuese tanto para Móvil como Web. Así mismo, la página de Inicio no consume la información de la API de WordPress suministrada por los evaluadores de la prueba técnica.
+:page_facing_up: El presente proyecto es presentado para la prueba Técnica de Parque Explora, este es el segundo punto denominado Frontend. Dicho proyecto está enfocado a solamente Web, no cuenta con diseño responsive, entendiéndose, que no se cumple con el requisito de que fuese tanto para Móvil como Web. Así mismo, la página de Inicio no consume la información de la API de WordPress suministrada por los evaluadores de la prueba técnica.
 # Tecnologías Empleadas :computer:
 :arrow_right: React JS
 ###
